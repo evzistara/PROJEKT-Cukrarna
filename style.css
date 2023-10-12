@@ -115,21 +115,15 @@ h1 {
   flex-wrap: wrap;
 }
 
-.ileft {
+.column {
   flex-basis: 50%;
+}
+
+.padding {
   padding-right: 30px;
 }
 
-.iright {
-  flex-basis: 50%;
-}
-
-.img-lady {
-  border-radius: 5px;
-  max-width: 100%;
-}
-
-.ileft a {
+.column a {
   color: #f0f0f0;
   border-radius: 30px;
   background-color: #f195b2;
@@ -139,7 +133,7 @@ h1 {
   margin-top: 30px;
 }
 
-.ileft a:hover {
+.column a:hover {
   background-color: #d2567d;
 }
 
@@ -180,8 +174,7 @@ h2 {
 .description {
   padding: 20px;
 }
-.img-about {
+.picture {
   border-radius: 5px;
-  margin-right: 30px;
   max-width: 100%;
 }
